@@ -51,7 +51,7 @@ For API documentation, you can use the following endpoint after running the appl
 - **API Authentication**: Use the `Bearer` token from the `token` field in the `users` table for authentication.
 
 # API Endpoints
-- **POST /api/v1/registers**: Register a new user.
+- **POST /api/v1/register**: Register a new user.
 - **POST /api/v1/login**: User login to obtain a token.
 - **POST /api/v1/logout**: User logout to invalidate the token.
-- **GET /api/v1/articles**: Retrieve all articles with pagination.
+- **GET /api/v1/news-articles**: Retrieve all articles with pagination.
