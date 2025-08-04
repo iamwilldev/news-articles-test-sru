@@ -19,7 +19,7 @@ class NewsArticleFactory extends Factory
         return [
             'title' => fake()->sentence(),
             'summary' => fake()->paragraph(),
-            'image' => fake()->imageUrl(640, 480, 'news', true),
+            'image' => "articles/5cB100cywQp1Az4MiPUq2IVZ5ZjTgRUCCsTIo6rS.jpg",
         ];
     }
 }

@@ -46,5 +46,7 @@
         <script src="{{ asset('assets/libs/sweetalert2/js/sweetalert2.min.js') }}"></script>
 
         {{ $dataTable->scripts(attributes: ['type' => 'module']) }}
+
+        <script src="{{ asset('assets/js/data_master/article.js') }}"></script>
     @endpush
 @endsection
