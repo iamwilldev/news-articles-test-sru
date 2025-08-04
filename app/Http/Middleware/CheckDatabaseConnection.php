@@ -21,7 +21,10 @@ class CheckDatabaseConnection
         try {
             DB::connection()->getPdo();
         } catch (PDOException $e) {
-            return response(new DefaultResource(false, 'Database connection error: ' . $e->getMessage(), null), 500);
+            if($request->expectsJson()) {
+                return response(new DefaultResource(false, 'Database connection error: ' . $e->getMessage(), null), 500);
+            }
+            return response()->view('errors.500', [], 500);
         }
         return $next($request);
     }
