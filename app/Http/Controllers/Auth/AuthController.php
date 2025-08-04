@@ -29,7 +29,7 @@ class AuthController extends Controller
 
             $user = User::create($data);
             Auth::login($user);
-            return redirect()->route('dashboard');
+            return redirect()->route('articles.index');
         } catch (\Throwable $th) {
             return back()->withErrors(['error' => $th->getMessage()]);
         }
@@ -44,7 +44,7 @@ class AuthController extends Controller
                 return back()->withErrors(['email' => 'Invalid credentials.']);
             }
 
-            return redirect()->route('dashboard');
+            return redirect()->route('articles.index');
         } catch (\Throwable $th) {
             return back()->withErrors(['error' => $th->getMessage()]);
         }

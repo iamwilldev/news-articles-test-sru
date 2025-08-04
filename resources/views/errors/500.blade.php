@@ -14,7 +14,6 @@
                             </h4>
                             <a href="javascript:void(0);" class="btn btn-primary" onclick="window.history.back();"
                                 role="button">Kembali</a>
-
                         </div>
                     </div>
                 </div>

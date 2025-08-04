@@ -13,7 +13,7 @@
     <!-- Core Css -->
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}" />
 
-    <title>{{ config('app.name', 'Login') }}</title>
+    <title>{{ config('app.name') }}</title>
 
     <!-- Css -->
     @stack('styles')
