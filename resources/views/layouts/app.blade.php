@@ -58,15 +58,7 @@
                     <!-- Dashboard -->
                     <!-- ---------------------------------- -->
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="" id="get-url" aria-expanded="false">
-                            <span>
-                              <i class="ti ti-home"></i>
-                            </span>
-                            <span class="hide-menu">Home</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="{{ route('articles.index') }}" aria-expanded="false">
+                        <a class="sidebar-link" href="{{ route('articles.index') }}" id="get-url" aria-expanded="false">
                             <span>
                               <i class="ti ti-news"></i>
                             </span>
