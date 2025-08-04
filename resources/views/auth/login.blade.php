@@ -7,7 +7,7 @@
                 <div class="col-md-8 col-lg-6 col-xxl-3 auth-card">
                     <div class="card mb-0">
                         <div class="card-body">
-                            <a href="{{ url('articles.index') }}" class="text-nowrap logo-img text-center d-block mb-5 w-100">
+                            <a href="javascript:void(0);" class="text-nowrap logo-img text-center d-block mb-5 w-100">
                                 <img src="{{ asset('assets/images/logos/dark-logo.svg') }}" class="dark-logo" alt="Logo-Dark" />
                                 <img src="{{ asset('assets/images/logos/light-logo.svg') }}" class="light-logo" alt="Logo-light" />
                             </a>
